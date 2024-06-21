@@ -12,6 +12,6 @@ services:
     volumes:
       - type: volume
         target: /data
-      - "./example/:/app/example/"
-    command: /app/example/src/index.js
+      - "./snark/:/app/snark/"
+    command: /app/snark/src/index.js
     network_mode: host
